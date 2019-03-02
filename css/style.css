@@ -53,6 +53,11 @@ header{
 	border-color: red;
 	border-width:2px;
 }
+.border1{
+	border: solid;
+	border-color: red;
+	border-width:2px;
+}
 .image1{
 	padding: 60px 70px;
 }
@@ -111,7 +116,7 @@ header{
 	padding-left: 105px;
 }
 .bg3{
-	height:90px;
+	height: 100%;
 	width: 100%;
 	background-color: #E6E6E6;
 }
@@ -123,11 +128,17 @@ header{
 	display: flex;
 	justify-content: space-between;
 }
-.box1,
-.box2{
-	height: 570px;
+.box1{
+	width: 570px;
 	height: 225px;
 	background-color:#F2F2F2;
+	margin-left:50px;
+}
+.box2{
+	width: 570px;
+	height: 225px;
+	background-color:#F2F2F2;
+	margin-right:50px;
 }
 .boxtext,
 .box2text{
@@ -146,13 +157,30 @@ header{
 }
 .box-child1image{
 	margin-left:60px;
+	margin-top:10px;
 }
 .boxchild1-text{
 	margin-left:65px;
+	text-align: center;
 }
 .box-child2image{
-	margin-right:60px;
+	margin-left:60px;
+	margin-top:15px;
 }
 .boxchild2-text{
-	margin-right:65px;
+	padding-left:65px;
+	text-align:center
+}
+.footer{
+	display: flex;
+	background-color:white;
+	justify-content: space-between;
+	margin-top:25px;
+	margin-bottom: 25px;
+}
+.footertext1{
+	padding-left:100px;
+}
+.footertext2{
+	padding-right:100px;
 }

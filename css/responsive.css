@@ -1,0 +1,29 @@
+@media  (max-width: 670px){
+	header{
+		background-color:white
+	}
+	body{
+		width: 480px;
+		padding:0 10px;
+	}
+	.social-icons{
+		display: none;
+	}
+	.navigation-ul{
+		display: none;
+	}
+	.men{
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	.images{
+		flex-wrap: wrap;
+	}
+	.boxes{
+		display: none;
+	}
+	.bg3{
+		display: none;
+	}
+}
