@@ -40,6 +40,7 @@ header{
 .text{
 	padding-top:34px;
 	padding-bottom:34px;
+	padding-left: 105px;
 }
 .images{
 	display: flex;
@@ -69,4 +70,89 @@ header{
 }
 .image3-3{
 	margin-top:108px;
+}
+.images-text{
+	font-color:red;
+}
+.images-paragraph{
+	margin-top:5px;
+}
+.xazi{
+	border: solid;
+	border-color: red;
+	margin-top:97px;
+	border-width: 2px 0 0 0
+}
+.team{
+	color:red;
+	margin-top: 25px;
+	margin-left: 105px;
+}
+.men{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 45px;
+}
+.man1{
+	margin-left:90px;
+}
+.man4{
+	margin-right:126px;
+}
+.bg2{
+	margin-top:125px;
+	background: #BDCCD4;
+	height:90px;
+	width: 100%;
+}
+.bg2-text{	
+	padding-top:34px;
+	padding-bottom:34px;
+	padding-left: 105px;
+}
+.bg3{
+	height:90px;
+	width: 100%;
+	background-color: #E6E6E6;
+}
+.text3{
+	padding:35px 0;
+	padding-left:98px;
+}
+.boxes{
+	display: flex;
+	justify-content: space-between;
+}
+.box1,
+.box2{
+	height: 570px;
+	height: 225px;
+	background-color:#F2F2F2;
+}
+.boxtext,
+.box2text{
+	margin-left:50px;
+	margin-top:20px;
+}
+.boxchild2{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+.boxchild1{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.box-child1image{
+	margin-left:60px;
+}
+.boxchild1-text{
+	margin-left:65px;
+}
+.box-child2image{
+	margin-right:60px;
+}
+.boxchild2-text{
+	margin-right:65px;
 }
