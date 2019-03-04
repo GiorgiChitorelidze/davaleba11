@@ -133,12 +133,14 @@ header{
 	height: 225px;
 	background-color:#F2F2F2;
 	margin-left:50px;
+	margin-bottom:50px;
 }
 .box2{
 	width: 570px;
 	height: 225px;
 	background-color:#F2F2F2;
 	margin-right:50px;
+	margin-bottom:50px;
 }
 .boxtext,
 .box2text{
